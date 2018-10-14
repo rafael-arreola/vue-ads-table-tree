@@ -1,5 +1,5 @@
 {
-  "name": "vue-ads-table-tree",
+  "name": "vue-table-fork",
   "version": "1.0.0",
   "main": "./dist/vue-ads-table-tree.common.js",
   "files": [
@@ -107,10 +107,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/arnedesmedt/vue-ads-table-tree.git"
+    "url": "https://github.com/rafael-arreola/vue-ads-table-tree.git"
   },
   "bugs": {
-    "url": "https://gitlab.com/arnedesmedt/vue-ads-table-tree/issues"
+    "url": "https://github.com/rafael-arreola/vue-ads-table-tree/issues"
   },
-  "homepage": "https://gitlab.com/arnedesmedt/vue-ads-table-tree"
+  "homepage": "https://github.com/rafael-arreola/vue-ads-table-tree"
 }
