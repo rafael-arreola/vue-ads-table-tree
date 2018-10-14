@@ -24,6 +24,7 @@
                 >
             </div>
         </div>
+        <div class="scroll">
         <table
             class="w-full vue-ads-table-tree"
             :class="stylingModel.tableClasses()"
@@ -72,6 +73,7 @@
                 </body-row>
             </tbody>
         </table>
+        </div>
         <pagination
             :totalItems="currentTotalRows"
             :itemsPerPage="itemsPerPage"
