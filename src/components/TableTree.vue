@@ -53,8 +53,8 @@
                         class="text-center py-6 text-sm"
                         :colspan="columnCollection.length"
                     >
-                        <span v-if="isLoading">Loading...</span>
-                        <span v-else>No results found</span>
+                        <span v-if="isLoading">Cargando...</span>
+                        <span v-else>No se han encontrado resultados</span>
                     </td>
                 </tr>
                 <body-row
