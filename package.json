@@ -1,6 +1,6 @@
 {
   "name": "vue-table-fork",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "./dist/vue-ads-table-tree.common.js",
   "files": [
     "/dist"

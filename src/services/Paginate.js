@@ -1,40 +1,42 @@
-import RowCollection from '../collections/RowCollection';
+import RowCollection from "../collections/RowCollection";
 
 export default class Paginate {
-    constructor () {
+    constructor() {
         this.start = 0;
         this.end = 0;
     }
 
-    set range ({start, end}) {
+    set range({ start, end }) {
         this.start = start;
         this.end = end;
     }
 
-    get range () {
+    get range() {
         return {
             start: this.start,
-            end: this.end,
+            end: this.end
         };
     }
 
-    set start (start) {
+    set start(start) {
         this._start = start;
     }
 
-    get start () {
+    get start() {
         return this._start;
     }
 
-    set end (end) {
+    set end(end) {
         this._end = end;
     }
 
-    get end () {
+    get end() {
         return this._end;
     }
 
-    paginate (rowCollection) {
-        return new RowCollection(rowCollection.items.slice(this.start, this.end));
+    paginate(rowCollection) {
+        return new RowCollection(
+            rowCollection.items.slice(this.start, this.end)
+        );
     }
 }

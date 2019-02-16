@@ -77,7 +77,7 @@ describe('TableTree', () => {
     });
 
     it('shows no results found if no rows are given', () => {
-        expect(tableTree.text()).toEqual(expect.stringMatching(/No results found/));
+        expect(tableTree.text()).toEqual(expect.stringMatching(/No se han encontrado resultados/));
     });
 
     it('show the children when toggled', async () => {
